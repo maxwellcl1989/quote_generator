@@ -1,0 +1,71 @@
+/*styles.css*/
+body {
+	background-color: #004445;
+	color: #fffff0;
+	font-size: 1.5em;
+	font-family: 'Noto Sans', sans-serif;
+}
+h1 {
+	text-align: center;
+	margin: 0 auto;
+}
+.container {
+  width: 30%;
+  margin: 3% auto;
+}
+.content {
+	border: 5px solid #021c1e;
+}
+.author {
+	font-style: italic;
+}
+
+.inner-border {
+	height: 15em;
+	width: 70%;
+	margin: 0 auto;
+	margin-bottom: 40%;
+}
+
+#quote {
+  position: relative;
+  padding: 1em;
+  border: solid #6fb98f;
+  border-width: 0 0.125em;
+  margin-top: 5%;
+}
+
+#quote :before {
+  position: absolute;
+  top: 1.5em;
+  bottom: 1.5em;
+  left: -1.625em;
+  right: -1.625em; 
+  display: block;
+  border: solid #6fb98f;
+  border-width: 0.125em 0;
+  content: "";  
+}
+
+#tweet {
+	margin-top: 40%;
+}
+
+.inputs {
+	margin: 3% auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 768px) {
+	.container {
+		width: 100%;
+	}
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1366px) {
+	.container {
+		width: 50%;
+	}
+}
